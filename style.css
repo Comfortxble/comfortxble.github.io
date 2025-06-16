@@ -1,0 +1,410 @@
+/* STYLE SECTIONING TAGS */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ background-color: #fff6f0; 
+  font-family: "Bahnschrift", sans-serif;
+  text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+  text-align: center;
+  font-family: "Bahnschrift", sans-serif;
+  letter-spacing: 1px;
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* STYLE TEXT */
+
+header {
+  background-color: #7c2d13;
+}
+
+h1 {
+  font-size: 125px;
+  padding-top: 35px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+h1 {
+  letter-spacing: 10px;
+}
+h1 {
+  font-weight: 900;
+}
+h1 {
+  color: #ffffff;
+}
+h1 {
+  line-height: 250px;
+}
+
+h2 {
+  font-size: 32px;
+  padding: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+h2 {
+  color: #7c2d13;
+}
+
+
+
+p {
+  color: #361f0c;
+}
+p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+p.lighter {
+  font-weight: 200;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+
+
+/* STYLE IMAGES */
+
+img {
+  border-radius: 5px;
+}
+
+/* HYPERLINKS */
+
+p a:link {
+  color: #cd6c5b
+}
+
+p a:visited {
+color: #7c2d13;
+}
+
+
+
+/*STYLE CLASSES AND IDS*/
+
+#mainhead {
+  font-size: 150px;
+  padding-top: 45px;
+  padding-bottom: 0px;
+
+}
+
+#subhead {
+  color: #ffffff;
+  font-size: 28px;
+  padding-bottom: 105px;
+}
+
+.homepic {
+  margin-bottom: 14px;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.homepic2 {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  max-height: 400px;
+}
+
+.hometext {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+.portpic {
+  max-height:300px;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.portext {
+  margin-bottom: 3em;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+.specialocc1 {
+  margin-bottom: 0;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+#specialocc2 {
+  margin-bottom: 10px;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+#specialocc3 {
+  margin-bottom: 5em;
+  margin-right: 22%;
+  margin-left: 22%;
+}
+
+.porth3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #7c2d13;
+  letter-spacing: 1px;
+}
+
+#hobbies {
+  text-align: center;
+}
+
+#picsofme {
+  text-align: center;
+}
+
+.pubh3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #7c2d13;
+  letter-spacing: 1px;  
+}
+
+#poetry {
+  display: inline;
+}
+
+.poems {
+  vertical-align: middle;
+  object-fit: contain;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  box-shadow: 0px 0px 20px 1px #e1c1b7;
+  border-radius: 15px;
+}
+
+
+.poetrytext {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+#misctext {
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 1px #e1c1b7;
+  margin-top: 2em;
+  margin-bottom: 0.1em;
+  margin-left: 2em;
+  margin-right:2em;
+  border-top: solid white 40px;
+  border-bottom: solid white 40px;
+  border-left: solid white 20px;
+  border-right: solid white 20px;
+}
+
+/* STYLE NAV BAR */
+
+nav {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #7F1808;
+  overflow: hidden;
+  padding: 1.3em;
+  vertical-align: middle;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 17px;
+  padding: 2.7%;
+  color: white;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+li a:hover {
+  background-color: #c75d4d;
+}
+
+#portnav {
+  margin-bottom: 3.5em;
+}
+
+#homenav {
+  margin-bottom: 3em;
+}
+
+#pubnav {
+  margin-bottom: 3.5em;  
+}
+
+
+
+/* FOOTER */
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 3.3rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #522A28;
+  height: 4.7rem;
+}
+
+
+/* BUTTON */
+
+#topbutton {
+  display: none;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: #7F1808;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Bahnschrift", sans-serif;
+  letter-spacing: 1px;
+}
+
+#topbutton:hover {
+  background-color: #c75d4d;
+}
+
+
+#wattpad {
+  border: none;
+  outline: none;
+  background-color: #7F1808;
+  color: white;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Bahnschrift", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#wattpad:hover {
+  background-color: #c75d4d;
+}
+
+
+#header-image {
+background-position: center;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+width: 100%;
+text-align: center;
+margin-bottom: 0px;
+object-fit: contain;
+overflow: hidden;
+border-radius: 0px;
+filter: blur(6px);
+  -webkit-filter: blur(6px);
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px
+}
+
+.header {
+ overflow: hidden; 
+  height: 420px;
+}
+
+.centered2 {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px
+}
+
+.header2 {
+ overflow: hidden; 
+  height: 300px;
+}
